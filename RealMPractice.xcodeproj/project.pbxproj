@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117F93E6F61074AC4B747407 /* Pods_RealMPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C44D868FABC0E5E3ECEEBB /* Pods_RealMPractice.framework */; };
 		9DB97CD0233B2D7100B857E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */; };
 		9DB97CD2233B2D7100B857E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */; };
 		9DB97CD4233B2D7100B857E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CD3233B2D7100B857E8 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		091A8E87A751AF80CABF0F1D /* Pods-RealMPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealMPractice.release.xcconfig"; path = "Target Support Files/Pods-RealMPractice/Pods-RealMPractice.release.xcconfig"; sourceTree = "<group>"; };
+		71C44D868FABC0E5E3ECEEBB /* Pods_RealMPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealMPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB97CCC233B2D7100B857E8 /* RealMPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealMPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		9DB97CD8233B2D7300B857E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB97CDB233B2D7300B857E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB97CDD233B2D7300B857E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9C327913901EF3F709BAF1 /* Pods-RealMPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealMPractice.debug.xcconfig"; path = "Target Support Files/Pods-RealMPractice/Pods-RealMPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117F93E6F61074AC4B747407 /* Pods_RealMPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DE0C605822A300E57CB9765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF9C327913901EF3F709BAF1 /* Pods-RealMPractice.debug.xcconfig */,
+				091A8E87A751AF80CABF0F1D /* Pods-RealMPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9DB97CC3233B2D7100B857E8 = {
 			isa = PBXGroup;
 			children = (
 				9DB97CCE233B2D7100B857E8 /* RealMPractice */,
 				9DB97CCD233B2D7100B857E8 /* Products */,
+				0DE0C605822A300E57CB9765 /* Pods */,
+				BA8714FBB7935C655A44704C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +74,45 @@
 			children = (
 				9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */,
 				9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */,
-				9DB97CD3233B2D7100B857E8 /* ViewController.swift */,
-				9DB97CD5233B2D7100B857E8 /* Main.storyboard */,
-				9DB97CD8233B2D7300B857E8 /* Assets.xcassets */,
-				9DB97CDA233B2D7300B857E8 /* LaunchScreen.storyboard */,
+				9DB97CE3233B2FA000B857E8 /* Controllers */,
+				9DB97CE5233B302A00B857E8 /* Views */,
+				9DB97CE4233B301C00B857E8 /* Supporting Files */,
 				9DB97CDD233B2D7300B857E8 /* Info.plist */,
 			);
 			path = RealMPractice;
+			sourceTree = "<group>";
+		};
+		9DB97CE3233B2FA000B857E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DB97CD3233B2D7100B857E8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DB97CE4233B301C00B857E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB97CD8233B2D7300B857E8 /* Assets.xcassets */,
+				9DB97CDA233B2D7300B857E8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB97CE5233B302A00B857E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DB97CD5233B2D7100B857E8 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA8714FBB7935C655A44704C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71C44D868FABC0E5E3ECEEBB /* Pods_RealMPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DB97CE0233B2D7300B857E8 /* Build configuration list for PBXNativeTarget "RealMPractice" */;
 			buildPhases = (
+				1FB998411A693A213E023ABD /* [CP] Check Pods Manifest.lock */,
 				9DB97CC8233B2D7100B857E8 /* Sources */,
 				9DB97CC9233B2D7100B857E8 /* Frameworks */,
 				9DB97CCA233B2D7100B857E8 /* Resources */,
+				80CAF71708C7B066D83C505C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB998411A693A213E023ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealMPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80CAF71708C7B066D83C505C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealMPractice/Pods-RealMPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealMPractice/Pods-RealMPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealMPractice/Pods-RealMPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DB97CC8233B2D7100B857E8 /* Sources */ = {
@@ -282,6 +374,7 @@
 		};
 		9DB97CE1233B2D7300B857E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9C327913901EF3F709BAF1 /* Pods-RealMPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		9DB97CE2233B2D7300B857E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091A8E87A751AF80CABF0F1D /* Pods-RealMPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
