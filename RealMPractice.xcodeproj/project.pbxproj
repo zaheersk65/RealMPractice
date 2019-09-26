@@ -8,25 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		117F93E6F61074AC4B747407 /* Pods_RealMPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C44D868FABC0E5E3ECEEBB /* Pods_RealMPractice.framework */; };
-		9DB97CD0233B2D7100B857E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */; };
 		9DB97CD2233B2D7100B857E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */; };
-		9DB97CD4233B2D7100B857E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CD3233B2D7100B857E8 /* ViewController.swift */; };
-		9DB97CD7233B2D7100B857E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB97CD5233B2D7100B857E8 /* Main.storyboard */; };
 		9DB97CD9233B2D7300B857E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB97CD8233B2D7300B857E8 /* Assets.xcassets */; };
 		9DB97CDC233B2D7300B857E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB97CDA233B2D7300B857E8 /* LaunchScreen.storyboard */; };
+		9DB97CEF233B399400B857E8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CED233B399400B857E8 /* Model.xcdatamodeld */; };
+		9DB97CF1233B3A6700B857E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CF0233B3A6700B857E8 /* AppDelegate.swift */; };
+		9DB97CF3233B3E1000B857E8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CF2233B3E1000B857E8 /* Item.swift */; };
+		9DB97CF5233B3E1C00B857E8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CF4233B3E1C00B857E8 /* Category.swift */; };
+		9DB97CF8233B407D00B857E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CF6233B407C00B857E8 /* ViewController.swift */; };
+		9DB97CF9233B407D00B857E8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB97CF7233B407D00B857E8 /* CategoryViewController.swift */; };
+		9DB97CFB233B416800B857E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB97CFA233B416700B857E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		091A8E87A751AF80CABF0F1D /* Pods-RealMPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealMPractice.release.xcconfig"; path = "Target Support Files/Pods-RealMPractice/Pods-RealMPractice.release.xcconfig"; sourceTree = "<group>"; };
 		71C44D868FABC0E5E3ECEEBB /* Pods_RealMPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealMPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB97CCC233B2D7100B857E8 /* RealMPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealMPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DB97CD3233B2D7100B857E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DB97CD6233B2D7100B857E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DB97CD8233B2D7300B857E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB97CDB233B2D7300B857E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB97CDD233B2D7300B857E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB97CEE233B399400B857E8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9DB97CF0233B3A6700B857E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DB97CF2233B3E1000B857E8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9DB97CF4233B3E1C00B857E8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9DB97CF6233B407C00B857E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DB97CF7233B407D00B857E8 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		9DB97CFA233B416700B857E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DF9C327913901EF3F709BAF1 /* Pods-RealMPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealMPractice.debug.xcconfig"; path = "Target Support Files/Pods-RealMPractice/Pods-RealMPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,12 +80,14 @@
 		9DB97CCE233B2D7100B857E8 /* RealMPractice */ = {
 			isa = PBXGroup;
 			children = (
-				9DB97CCF233B2D7100B857E8 /* AppDelegate.swift */,
+				9DB97CF0233B3A6700B857E8 /* AppDelegate.swift */,
 				9DB97CD1233B2D7100B857E8 /* SceneDelegate.swift */,
 				9DB97CE3233B2FA000B857E8 /* Controllers */,
+				9DB97CE8233B36D400B857E8 /* Data Model */,
 				9DB97CE5233B302A00B857E8 /* Views */,
 				9DB97CE4233B301C00B857E8 /* Supporting Files */,
 				9DB97CDD233B2D7300B857E8 /* Info.plist */,
+				9DB97CED233B399400B857E8 /* Model.xcdatamodeld */,
 			);
 			path = RealMPractice;
 			sourceTree = "<group>";
@@ -85,7 +95,8 @@
 		9DB97CE3233B2FA000B857E8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9DB97CD3233B2D7100B857E8 /* ViewController.swift */,
+				9DB97CF7233B407D00B857E8 /* CategoryViewController.swift */,
+				9DB97CF6233B407C00B857E8 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -102,9 +113,18 @@
 		9DB97CE5233B302A00B857E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9DB97CD5233B2D7100B857E8 /* Main.storyboard */,
+				9DB97CFA233B416700B857E8 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9DB97CE8233B36D400B857E8 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DB97CF2233B3E1000B857E8 /* Item.swift */,
+				9DB97CF4233B3E1C00B857E8 /* Category.swift */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 		BA8714FBB7935C655A44704C /* Frameworks */ = {
@@ -175,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB97CFB233B416800B857E8 /* Main.storyboard in Resources */,
 				9DB97CDC233B2D7300B857E8 /* LaunchScreen.storyboard in Resources */,
 				9DB97CD9233B2D7300B857E8 /* Assets.xcassets in Resources */,
-				9DB97CD7233B2D7100B857E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,23 +250,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB97CD4233B2D7100B857E8 /* ViewController.swift in Sources */,
-				9DB97CD0233B2D7100B857E8 /* AppDelegate.swift in Sources */,
+				9DB97CF8233B407D00B857E8 /* ViewController.swift in Sources */,
+				9DB97CF3233B3E1000B857E8 /* Item.swift in Sources */,
+				9DB97CF9233B407D00B857E8 /* CategoryViewController.swift in Sources */,
 				9DB97CD2233B2D7100B857E8 /* SceneDelegate.swift in Sources */,
+				9DB97CEF233B399400B857E8 /* Model.xcdatamodeld in Sources */,
+				9DB97CF1233B3A6700B857E8 /* AppDelegate.swift in Sources */,
+				9DB97CF5233B3E1C00B857E8 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DB97CD5233B2D7100B857E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DB97CD6233B2D7100B857E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DB97CDA233B2D7300B857E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +448,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DB97CED233B399400B857E8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DB97CEE233B399400B857E8 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9DB97CEE233B399400B857E8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9DB97CC4233B2D7100B857E8 /* Project object */;
 }
